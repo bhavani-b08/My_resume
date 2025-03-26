@@ -1,0 +1,64 @@
+.interest{
+    background-color: black;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 80px;
+}
+.web , .django , .cloud , .program{
+    position: relative;
+    width:500px ;
+    height: 300px ;
+    border: 1px solid white ;
+    border-radius: 3px ;
+    overflow: hidden;
+}
+
+
+.web{
+    background-image: url("../images/web development.jpg");
+    background-size: cover;
+}
+
+.cloud{
+    background-image: url("../images/cloud.png");
+    background-size: cover;
+}
+
+.django{
+    background-image: url("../images/django.jpg");
+    background-size: cover;
+}
+
+.program {
+    background-image: url("../images/program.jpg");
+    background-size: cover;
+}
+
+.title{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 500px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.web:hover .title , .cloud:hover .title , .django:hover .title , .program:hover .title{
+    opacity: 1;
+    
+}
+
+.web:hover , .cloud:hover . .django:hover , .program:hover{
+    background-color: rgb(67, 64, 64);
+}

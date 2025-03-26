@@ -1,0 +1,166 @@
+.right_intro p{
+    margin-left: 20px ;
+}
+@keyframes shake {
+    35%{ transform: rotate( 5deg ); } 
+    
+}
+@keyframes rotate{
+    0%{ transform: rotatey( 360deg ) ; }
+}
+.resume{
+    background-color: rgb(10, 10, 10);
+}
+.contact_me{
+    background-color: rgb(17, 16, 16);
+}
+.left_intro{
+    width: 600px ;
+    height: 800px;
+    /* background-color: aqua; */
+}
+.intro{
+    display: inline-block;
+    top : 60px;
+    width: 500px;
+    position: relative;
+    height: 250px;
+    margin-top: 100px ;
+    margin-left: 50px;
+    border: 2px solid;
+    border-color: aliceblue;
+    border-radius: 50px ;
+    background-color: rgb(3, 3, 75);
+    animation-name: shake ;
+    animation-duration: 0.2s ;
+    animation-timing-function: ease-in ; 
+    animation-iteration-count: 4;  
+    animation-direction: alternate ;
+    /* box-shadow: 5px 5px 8px 5px rgb(80, 74, 117); */
+    
+}
+.intro:hover{
+    box-shadow: 5px 5px 8px 5px rgb(80, 74, 117);
+  
+}
+
+img{
+    position: absolute;
+    width : 100px ;
+    height: 150px ;
+    border-radius: 200px;
+    top: 50px;
+    margin-left: 30px;
+    
+}
+.name{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 250px;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: white ;
+}
+.dash{
+    position: absolute;
+    background-color: white;
+    width : 250px ;
+    height: 1px ;
+    margin-left: 200px;
+    margin-top: 120px;
+
+}
+.profession{
+    position: absolute;
+    color: white;
+    font-size: medium;
+    margin-left: 230px;
+    margin-top: 130px ;
+}
+.split{
+    margin-top: 80px;
+    margin-left: 600px;
+    position: absolute;
+    top:0;
+    width: 2px;
+    height: 500px;
+    background-color: rgb(100, 92, 92);
+}
+fieldset{
+    left: 3px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 450px;
+    border-radius: 20px;
+    height: 80px;
+  
+}
+fieldset:hover{
+    left: 3px;
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    border-radius: 20px;
+    height: 80px;
+    animation-play-state: paused;
+}
+.contact{
+    width: 100%;
+    height :10px;
+    font-size: 15px;
+    padding :10px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+legend{
+    margin-left: 170px;
+    z-index: 1;
+    color: rgb(7, 214, 241);
+    font-weight: bolder;
+    text-shadow: 5px 5px 0px 5px rgb(244, 243, 229);
+}
+.right_intro{
+    border: 2px solid;
+    border-color: gold ;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(63, 62, 62) ;
+    top:25px;;
+    margin-top:140px ;
+    left: 660px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0px 0px rgb(237, 237, 188);
+    
+}
+.right_intro:hover{
+    box-shadow: 3px 3px 15px 5px gold ;
+}
+
+.right_intro img {
+    position: absolute;
+    top:0 ;
+    left: 0;
+    width : 600px ;
+    height: 400px;
+    object-fit: fill;
+}
+.right_intro h1{
+    margin-left: 10px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+.right_intro p{
+    
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    position: absolute;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
