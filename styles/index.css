@@ -14,6 +14,12 @@
 .contact_me{
     background-color: rgb(17, 16, 16);
 }
+video{
+    position: absolute;
+}
+.full_intro{
+    position: absolute;
+}
 .left_intro{
     width: 600px ;
     height: 800px;
@@ -27,7 +33,7 @@
     height: 250px;
     margin-top: 100px ;
     margin-left: 50px;
-    border: 2px solid;
+    border: 1px solid;
     border-color: aliceblue;
     border-radius: 50px ;
     background-color: rgb(3, 3, 75);
@@ -89,7 +95,8 @@ img{
 }
 fieldset{
     left: 3px;
-    position: relative;
+    /* position: relative; */
+    position: absolute;
     margin-top: 100px;
     margin-left: 60px;
     width: 450px;
@@ -123,22 +130,25 @@ legend{
     font-weight: bolder;
     text-shadow: 5px 5px 0px 5px rgb(244, 243, 229);
 }
+legend:hover{
+    box-shadow: 3px 3px 15px 5px rgb(215, 215, 213) ;
+}
 .right_intro{
-    border: 2px solid;
-    border-color: gold ;
+    border: 0.5px solid;
+    border-color: rgb(255, 255, 255) ;
     position: absolute;
     width: 800px;
     height: 400px;
-    background-color: rgb(63, 62, 62) ;
+    background-color: rgb(8, 28, 0) ;
     top:25px;;
     margin-top:140px ;
     left: 660px;
     border-radius: 20px;
-    box-shadow: 3px 3px 0px 0px rgb(237, 237, 188);
+    /* box-shadow: 3px 3px 0px 0px rgb(237, 237, 188); */
     
 }
 .right_intro:hover{
-    box-shadow: 3px 3px 15px 5px gold ;
+    box-shadow: 3px 3px 15px 5px rgb(215, 215, 213) ;
 }
 
 .right_intro img {
